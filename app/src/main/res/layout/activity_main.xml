@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity"
+    android:background="@drawable/medical"
+    >
+
+    <Button
+        android:id="@+id/goToAddDoctorButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="ADD DOCTOR PROFILE"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:background="@drawable/mybutton"
+        />
+    <Button
+        android:id="@+id/goToViewDoctorButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="VIEW DOCTOR PROFILE"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:background="@drawable/mybutton"
+        />
+    <Button
+        android:id="@+id/goToUpdateDoctorButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="UPDATE DOCTOR PROFILE"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:background="@drawable/mybutton"
+        />
+    <Button
+        android:id="@+id/goToAddMedicalButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="ADD MEDICAL PROFILE"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:background="@drawable/mybutton"
+        />
+    <Button
+        android:id="@+id/goToViewMedicalButton"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:text="VIEW MEDICAL PROFILE"
+        android:layout_marginBottom="20dp"
+        android:padding="10dp"
+        android:background="@drawable/mybutton"
+        />
+
+</LinearLayout>
